@@ -20,6 +20,7 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 /
 
 Start at the homepage and list all the available routes.
+
 ![image](https://user-images.githubusercontent.com/117549284/221025010-e881254c-d3e8-46e9-9568-c46462fd7413.png)
 
 /api/v1.0/precipitation
@@ -29,20 +30,24 @@ Convert the query results from your precipitation analysis (i.e. retrieve only t
 
 /api/v1.0/stations
 Return a JSON list of stations from the dataset.
+
 ![image](https://user-images.githubusercontent.com/117549284/221025300-09576f85-8c10-4941-a6cf-1dcf65ed0c08.png)
 
 
 /api/v1.0/tobs
 Query the dates and temperature observations of the most-active station for the previous year of data.Return a JSON list of temperature observations for the previous year.
+
 ![image](https://user-images.githubusercontent.com/117549284/221025319-e3ffd8f0-86cf-4c69-86df-a9ea1f2d2dd9.png)
 
 /api/v1.0/<start>  
 Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
+  
 ![image](https://user-images.githubusercontent.com/117549284/221025349-fb1e77d2-6399-4ce3-9c58-569173fceff1.png)
 
 /api/v1.0/<start>/<end>
 For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+  
 ![image](https://user-images.githubusercontent.com/117549284/221025375-e0a06aad-2c24-49fb-8af1-fa439e9124c0.png)
 
 For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
